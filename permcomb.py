@@ -4,5 +4,5 @@ r = eval(input("How many permutations do you want?"))
 perm = math.factorial(n)/math.factorial(n-r)
 print("There are {} permutations ".format(perm))
 comb = math.factorial(n)/(math.factorial(r)*math.factorial(n-r))
-print("There are {} combinations ".format(comb))
+print("There are {} combinations here ".format(comb))
 
